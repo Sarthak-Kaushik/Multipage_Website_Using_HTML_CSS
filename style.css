@@ -8,3 +8,13 @@ body {
 height: 100%;
 width: 100%;
 }
+
+.logo img {
+    width: 125px;
+}
+
+.categories li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}

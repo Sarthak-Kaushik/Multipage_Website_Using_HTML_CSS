@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Commerce Website</title>
+    <title>Redtube - E-Commerce Website</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a51a0e5262.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,31 +16,24 @@
         <div class="container">
 
             <!-- NAVBAR SECTION -->
-            <nav class="navbar">
+            <div class="navbar">
                 <div class="logo">
-                    <img src="images/logo.png" alt="Logo">
+                    <img src="images/logo.png" width="125px">
                 </div>
-                <div class="categories">
+                <nav>
                     <ul>
-                        <a href=""></a>
-                        <li>Home</li></a>
-                        <a href=""></a>
-                        <li>Products</li></a>
-                        <a href=""></a>
-                        <li>About</li></a>
-                        <a href=""></a>
-                        <li>Contact</li></a>
-                        <a href=""></a>
-                        <li>Accounts</li></a>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Accounts</a></li>
                     </ul>
-                    <div class="cart">
-                        <a href=""><img src="images/cart.png" alt="Cart"></a>
-                    </div>
-                </div>
-            </nav>
+                </nav>
+                <a href=""><img src="images/cart.png" width="30px" height="30px"></a>
+            </div>
 
             <!-- HERO SECTION -->
-            <div class="hero-section">
+            <div class="row">
                 <div class="col-2">
                     <h1>Give Your Workout <br>A new Style!</h1>
                     <p>Success isn't always about greatness. It's about consistency. Consistent <br>hard work gains success. Greatness will come.</p>
@@ -48,16 +41,16 @@
                 </div>
     
                 <div class="col-2">
-                    <img src="images/image1.png" alt="Hero image">
+                    <img src="images/image1.png">
                 </div>
             </div>
         </div>
     </div>
 
     <!-- FEATURED CATEGORIES -->
-    <div class="category">
+    <div class="categories">
         <div class="small-container">
-            <div class="hero-section">
+            <div class="row">
                 <div class="col_3">
                     <a href=""><img src="images/category-1.jpg" alt=""></a>
                 </div>
@@ -74,7 +67,7 @@
     <!-- FEATURED PRODUCTS -->
     <div class="small-container">
         <h2 class="title">Featured Products</h2>
-        <div class="hero-section" style="margin-top: 50px;">
+        <div class="row" style="margin-top: 50px;">
             <div class="col_4">
                 <img src="images/product-1.jpg" alt="Featured Image">
                 <h4>Red Printed T-shirt</h4>
@@ -129,7 +122,7 @@
     <!-- Latest Products -->
     <div class="small-container">
         <h2 class="title">Latest Products</h2>
-        <div class="hero-section" style="margin-top: 50px;">
+        <div class="row" style="margin-top: 50px;">
             <div class="col_4">
                 <img src="images/product-5.jpg" alt="Featured Image">
                 <h4>Puma Gray Sports Shoes</h4>
@@ -232,15 +225,15 @@
     <!-- Exclusive Offer -->
      <div class="offer">
         <div class="small-container">
-            <div class="hero-section">
+            <div class="row">
                 <div class="col-2">
                     <img src="images/exclusive.png" class="offer-img">
                 </div>
                 <div class="col-2">
                     <p>Exclusively Avaliable on RedStore</p>
                     <h1>Smart band 4</h1>
-                    <small>The MI Smart band 4 features a 39.9% larger (than MI band 3) AMOLED color full-touch display with adjustable brightness, so everything is clear as can be.</small>
-                    <a href="" class="btn" style="width: 145px;">Buy Now <i class="fa-solid fa-arrow-right"></i></a>
+                    <small>The MI Smart band 4 features a 39% larger (than MI band 3) AMOLED color full-touch display with adjustable brightness, so everything is clear as can be.</small>
+                    <a href="" class="btn">Buy Now <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -250,7 +243,7 @@
      <!-- Testimonials -->
       <div class="testimonial">
         <div class="small-container">
-            <div class="hero-section">
+            <div class="row">
                 <div class="col_3">
                     <i class="fa-solid fa-quote-left"></i>
                     <p>Lorem ipsum is simply dummy text of the printing & typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
@@ -297,7 +290,7 @@
       <!-- Brands -->
        <div class="brands">
         <div class="small-container">
-            <div class="hero-section">
+            <div class="row">
                 <div class="col-5">
                     <img src="images/logo-coca-cola.png" alt="brands">
                 </div>
@@ -320,7 +313,7 @@
        <!-- Footer -->
         <div class="footer">
             <div class="container">
-                <div class="hero-section">
+                <div class="row">
                     <div class="footer-col-1">
                         <h3>Download Our App</h3>
                         <p>Download App for Android and ios mobile phone.</p>
